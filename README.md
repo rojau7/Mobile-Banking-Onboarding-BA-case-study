@@ -1,7 +1,7 @@
 
-**Mobile Banking App - Onboarding Redesign**
+## Mobile Banking App - Onboarding Redesign
 
-## Business Analysis Case Study
+### Business Analysis Case Study
 ---
 
 ## 1. PROJECT OVERVIEW
@@ -229,8 +229,6 @@ Chime
 N26
 
 ### 8.3 Competitor Onboarding Overview
-
-Feature / Aspect
 
 Revolut
 
