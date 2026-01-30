@@ -1,217 +1,340 @@
 
+**Mobile Banking App - Onboarding Redesign**
+
+## Business Analysis Case Study
+---
+
+## 1. PROJECT OVERVIEW
+
+The mobile banking application is currently facing a high user drop-off rate during the onboarding process. While a significant number of users download the application, many fail to complete the registration and account setup process. This drop-off negatively impacts user activation, customer acquisition goals and overall business performance.
+
+The organisation has identified onboarding as a critical area requiring improvement to ensure users can quickly and easily start using the banking services offered by the application.
 
 ---
 
-# Mobile Banking App – Onboarding Redesign
+## 2. PROBLEM STATEMENT
 
-**Business Analysis Case Study**
-
----
-
-## Project Overview
-
-The mobile banking application is experiencing a high user drop-off rate during the onboarding process. While many users download the application, a significant number fail to complete registration and account setup. This project focuses on analyzing the current onboarding experience and proposing a redesigned user flow to improve user engagement and registration completion rates.
+The existing process is lengthy and complex, leading to user frustration and abandonment. Users encounter multiple steps without clear guidance, which results in reduced engagement and incomplete registrations. There is a need to redesign the onboarding experience to make it more user-friendly, intuitive, and aligned with user expectations.
 
 ---
 
-## Problem Statement
+## 3. BUSINESS OBJECTIVE 
 
-The existing onboarding process is lengthy and complex, leading to user frustration and abandonment. Users encounter multiple steps without sufficient guidance, resulting in low engagement and incomplete registrations.
-
----
-
-## Business Objective
-
-The objective of this project is to analyze the current onboarding process, identify key user pain points, and propose a redesigned onboarding flow that improves user experience and increases successful account registrations.
+The primary objective of this project is to analyse the current onboarding process, identify key users pain points and drop-off stages, and propose a redesigned onboarding flow that improves user engagement and incomplete registration completion rates.
 
 ---
 
-## Scope of Analysis
+## 4. SCOPE OF ANALYSIS
 
-### In Scope
+### IN SCOPE
 
-* Analysis of the current onboarding process
-* Identification of user drop-off points and pain areas
-* Creation of user personas
-* Competitor onboarding analysis
-* Redesign of the onboarding user flow
-* Definition of success metrics
+Review and analysis of the current onboarding process
 
-### Out of Scope
+Identification of user drop-off points and pain area
 
-* UI/UX design and wireframes
-* Technical or backend implementation
-* Development and testing activities
+Creation of user personas
 
----
+Competitor onboarding analysis
 
-## Role & Responsibility
+Redesigning of the onboarding user flow (conceptual)
 
-**Role:** Business Analyst
+Definition of success metrics
 
-**Responsibilities:**
+### OUT  OF SCOPE
 
-* Analyze the current onboarding journey
-* Identify user pain points and drop-off stages
-* Define user personas
-* Conduct competitor benchmarking
-* Propose an improved onboarding flow
-* Define measurable success criteria
+UI / UX visual designs or wireframes
 
----
+Technical or backend implementation
 
-## Current Onboarding Analysis
+Development and testing activities 
 
-### Existing Onboarding Flow (As-Is)
+## 5. ROLE & RESPONSIBILITY
 
-1. App download and launch
-2. Welcome screen with feature overview
-3. Mobile number and email entry
-4. OTP verification
-5. Personal details entry
-6. KYC document upload
-7. Account setup
-8. Dashboard access
+**ROLE -** Business Analyst 
 
-### Identified Drop-Off Points
+RESPONSIBILITIES
 
-* OTP verification delays or failures
-* Lengthy personal details form
-* Time-consuming KYC process
-* Complex password and security requirements
+Analyse the current onboarding journey
 
-### User Pain Points
+Identify usability and user pain points
 
-* Too many steps before accessing core features
-* No progress indicator
-* Lack of guidance during KYC
-* Repetitive data entry
+Conduct competitor benchmarking
 
-### Business Impact
+Propose an improved onboarding flow
 
-* Low registration completion rate
-* Poor first-time user experience
-* Increased customer support queries
-* Loss of potential active users
+Define measurable success criteria
 
 ---
 
-## User Persona Research
+## 6. CURRENT ONBOARDING ANALYSIS
 
-### Persona 1: First-Time Digital Banking User
+### 6.1 Existing Onboarding Flow (As - Is)
 
-* **Age:** 25–40
-* **Tech Proficiency:** Basic to Moderate
+The current onboarding process of mobile banking application follows these steps:
+
+User downloads and launches the mobile banking app
+
+Welcome screen displaying key app features
+
+User enter mobile number and email address
+
+OTP verification for mobile number / email
+
+Entry of personal details (Name, Date of birth, Address)
+
+Identify Verification (KYC document upload)
+
+Account Setup (Username, Password, Security questions)
+
+Account confirmation and redirection to dashboard
+
+### 6.2 Identified Drop-off Points
+
+The highest user drop-off is observed at the following stages of onboarding 
+
+OTP verification due to delayed or failed OTP delivery
+
+Personal details entry because of lengthy and repetitive forms
+
+KYC document upload, which user perceive as complex and time-consuming 
+
+Account setup due to strict password and security requirements
+
+### 6.3 User Pain Points
+
+The key pain points identified during the onboarding analysis include:
+
+Excessive number of steps before user can access core banking features
+
+Absence of a progress indicator, causing uncertainty and frustration
+
+Lack of clear instruction during KYC and document upload
+
+Mandatory information requested upfront without explaining its purpose
+
+Re-entry of similar information across multiple screens
+
+### 6.4 Business Impact
+
+The current onboarding challenges lead to the following business impacts:
+
+Reduced onboarding completion rate
+
+Poor first-time user experience
+
+Increased customer support request related to onboarding issues
+
+Lost of potential customers and reduced user activation
+
+---
+
+## 7. USER PERSONA RESEARCH
+
+### 7.1 Persona 1 : First-Time Digital Banking User
+
+**Profile Summary**
+
+**Age:** 25-40
+
+**Occupation:** Salaried / Small Business Owner
+
+**Technology Proficiency:** Basic to Moderate
 
 **Goals**
 
-* Easy account setup
-* Clear understanding of steps
+Open a bank account easily & without confusion
+
+Understand the onboarding steps clearly 
+
+Feel confidently using the app independently
 
 **Pain Points**
 
-* Confusing terminology
-* Complex verification steps
+Difficulty undestanding banking terminology
 
----
+Challenges in completing KYC without assistance
 
-### Persona 2: Tech-Savvy User
+Fear of errors during registration
 
-* **Age:** 18–30
-* **Tech Proficiency:** High
+Onboarding Expectations
+
+Guided and simple onboarding flow
+
+Minimal mandatory data entry
+
+Clear explanation for each step
+
+### 7.2 Persona 2: Tech-Savy User
+
+**Profile Summary**
+
+**Age:** 18-30
+
+**Occupation:** Student / Young professional
+
+**Technology Proficiency:** High
 
 **Goals**
 
-* Fast onboarding
-* Immediate access to features
+Complete onboarding quickly
+
+Access banking features immediately 
+
+Avoid unnecessary steps
 
 **Pain Points**
 
-* Lengthy forms
-* Unnecessary guidance
+Lengthy forms & repeated information
+
+Mandatory tutorials or help screens
+
+Delays in OTP and verification
+
+Onboarding Expectations
+
+Transparent security messaging
+
+Clear explanation of data handling
+
+Visible confirmation of secure processes
+
+### 7.4 Persona-Based Onboarding Considerations
+
+Provide guided onboarding for first-time users
+
+Offer a fast onboarding option for tech-savy users
+
+Highlight security measures for security-concious users
+
+Maintain flexibility while ensuring regulatory compliance 
 
 ---
 
-### Persona 3: Security-Conscious User
+## 8. COMPETITORS ANALYSIS
 
-* **Age:** 30–55
-* **Tech Proficiency:** Moderate
+### 8.1 Objective
 
-**Goals**
+The objective of this competitor analysis is to evaluate the onboarding process of leading mobile banking applications and identify industry best practices that can be applied to improve the current  onboarding experience.
 
-* Secure data handling
-* Transparency in verification
+### 8.2 Competitors Reviewed
 
-**Pain Points**
+The following mobile banking application were analysed as part of this study:
 
-* Unclear security measures
-* Lack of trust-building communication
+Revolut
+
+Monzo
+
+Chime
+
+N26
+
+### 8.3 Competitor Onboarding Overview
+
+Feature / Aspect
+
+Revolut
+
+Monzo
+
+Chime
+
+N26
+
+
+### 8.4 Key Observations
+
+Most competitors provide a clear progress indicator during onboarding
+
+Registration requires minimal mandatory information upfront
+
+KYC steps are broken into smaller, manageable actions
+
+Clear instructions and contextual guidance are provided at each step
+
+Faster onboarding improves user guidance and engagement
+
+### 8.5 Identified Best Practices
+
+Display onboarding progress clearly
+
+Reduce cognitive load by limiting data entry
+
+Provide contextual help without overwhelming users
+
+Ensure KYC steps are simple and well-explained
+
+Balance speed with security and compliance
+
+### 8.6 Application to Current Project
+
+The following best practices will be considered while redesigning the onboarding flow:
+
+Introduction of a progress indicator
+
+Simplification of registration steps
+
+Improved guidance during verification stages
+
+Reduced upfront data collection
+
+Clear communication of security measures
 
 ---
 
-## Competitor Analysis
+## 9. REDESIGNED ONBOARDING USER FLOW (To-Be)
 
-### Competitors Reviewed
+### 9.1 Objective
 
-* Revolut
-* Monzo
-* Chime
-* N26
+The objective of the redesigned onboarding flow is to reduce user drop-off, improve engagement, and enable users to complete registration quickly while maintaining security and compliance requirements.
 
-### Key Observations
+### 9.2 Improved Over Current Flow 
 
-* Clear progress indicators improve completion rates
-* Minimal mandatory data upfront
-* Guided KYC processes
-* Contextual user guidance
+Reduced number of mandatory fields during initial signup
 
-### Best Practices Identified
+Clear progress indicator to manage user expectations
 
-* Simplified onboarding steps
-* Clear communication of security measures
-* Flexible onboarding paths
-* Reduced cognitive load
+Simplified and guided KYC experience
+
+Elimination of repetitive data entry
+
+Improved clarity and messaging at each step
 
 ---
 
-## Redesigned Onboarding User Flow (To-Be)
+## 10. METRICS AND SUCCESS CRITERIA
 
-1. App launch with concise welcome screen
-2. Progress indicator showing onboarding steps
-3. Mobile number and email entry
-4. OTP verification with retry options
-5. Minimal personal details entry
-6. Guided KYC process
-7. Account credential setup
-8. Registration confirmation
-9. Dashboard access
+### 10.1 Key Metrics
 
----
+The success of the redesigned onboarding process will be measured using the following metrics:
 
-## Metrics and Success Criteria
+Onboarding completion rate
 
-### Key Metrics
+Drop-off rate at each onboarding step
 
-* Onboarding completion rate
-* Step-level drop-off rate
-* Average onboarding time
-* OTP failure rate
-* KYC success rate
+Average time taken to complete onboarding
 
-### Success Criteria
+OTP failure and retry rate
 
-* Increased onboarding completion rate
-* Reduced drop-off during OTP and KYC
-* Faster onboarding time
-* Improved user satisfaction
-* Reduced onboarding-related support tickets
+KYC completion success rate
+
+### 10.2  Success Criteria
+
+The redesigned onboarding will be considered successful if:
+
+Onboarding completion rate increases significantly
+
+User drop-off during OTP & KYC steps is reduced
+
+Average onboarding time is decreased
+
+User satisfaction related to onboarding improves
+
+Support requests related to onboarding issues decline
 
 ---
 
 ## Conclusion
 
-The redesigned onboarding flow addresses key usability challenges identified in the existing process. By simplifying steps, improving guidance, and clearly communicating progress and security, the proposed solution aims to enhance user engagement and drive higher registration completion rates.
+The redesigned onboarding flow addresses key user pain points identified during analysis and align with user persona and industry best practices. By simplifying steps, improving guidance, and clearly communicating progress and security the new onboarding experience aims to enhance user engagement and increase successful account registrations. 
 
 ---
-
-
