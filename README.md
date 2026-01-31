@@ -68,6 +68,7 @@ Define measurable success criteria
 
 ## 6. CURRENT ONBOARDING ANALYSIS
 
+
 ### 6.1 Existing Onboarding Flow (As - Is)
 
 The current onboarding process of mobile banking application follows these steps:
